@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagenine, "VI bap. LMS (LEARNING MANAGEMENT SYSTEMS) - BILIM-LENDIRIWDI BASQARÍW SISTEMALARÍ  ","Bul bapta LMS haqqında, LMS plotformalardıń túrleri hám wazıypalar.",""));
         modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagesevn, "VII bap. WEB-FREELANCE","Bul bapta Web-freelance, Web-freelance saytları.",""));
         modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagetwo, "Paydalanılǵan ádebiyatlar","Paydalanılǵan ádebiyatlar","file:///android_asset/foyda.htm"));
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.photo, "Muallif:","Turayev Xumoyiddin Abduĝafforovich \n  TerDU","https://t.me/xumoyiddinturayev"));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.photo, "Muallif:","Turayev Xumoyiddin Abduĝafforovich \n  Nukus Davlat Pedagogika Instituti","http://t.me/MaksetbayTorebekovich"));
 
     }
 

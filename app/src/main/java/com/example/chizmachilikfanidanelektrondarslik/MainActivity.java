@@ -46,7 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 getResources().getColor(R.color.color4),
                 getResources().getColor(R.color.color5),
                 getResources().getColor(R.color.color6),
-                getResources().getColor(R.color.color7)
+                getResources().getColor(R.color.color7),
+                getResources().getColor(R.color.color8),
+                getResources().getColor(R.color.color9),
+                getResources().getColor(R.color.color10)
         };
         colors = colors_tempSwimmers;
 
@@ -84,12 +87,15 @@ public class MainActivity extends AppCompatActivity {
 
     private void initialization() {
 
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imageone, "Ma'ruza","Dars ta’lim jarayonining yaxlitligi nuqtai nazaridan ta’limning asosiy tashkiliy usuli hisoblanadi.",""));
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagetwo, "Amaliy","O‘tilgan mavzular yuzasidan savol-javob o‘tkazish ...",""));
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagethree, "Joriy","Grafik vazifalar ishi, Mustaqil vazifalar...","file:///android_asset/joriy.htm"));
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagesevn, "Oraliq nazorat","Oraliq nazorat topshiriqlari...","file:///android_asset/on.htm"));
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagenine, "Yakuniy nazorat","Yakuniy nazorat topshiriqlari...","file:///android_asset/yn.htm"));
-        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagefive, "Fotdalanilgan adabiyotlar","Elektron dasrslikni yaratishda foydalanilgan adabiyotlar","file:///android_asset/fa.htm"));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imageone, "Kirisiw","Zamanagóy bilimlendiriw sistemasınıń tiykarın sapalı hám joqarı texnologiyalı ortalıq quraydı.","file:///android_asset/kirish.htm"));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.htmlcss, "I bap. HTML5 hám CSS3 járdeminde betlikler jaratıw"," Bul bapta HTML5 dıń tiykarǵı elementleri, formalar, kesteler, kesteler hám semantik web teglerin úyreniw.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.js, "II bap. JavaScript hám JQuery texnologiyası ","Bul bapta javascripttiń  tiykarǵı  túsinikleri:  ózgeshelikler, metodlar, xo-disalar.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.ppp, "III bap. PHP hám onıń imkaniyatları ","Bul bapta PHP sintaksisini úyreniw. PHP programmalastırıw tili járde-minde web - saytlar jaratıwdı úyreniw.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.mysql, "IV bap. MySQL maǵlımatlar ba-zası","Bu bapta MySQL maǵlıwmatlar bazası interfeysi, MySQL maǵlıwmatlar bazası menen islew.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagefive, "V bap. CMS (CONTENT MANAGEMENT SYSTEMS) - KONTENT BASQARÍW SISTEMALARÍ ","Bul bapta CMS haqqında, CMS plotformaları menen tanısıw.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagenine, "VI bap. LMS (LEARNING MANAGEMENT SYSTEMS) - BILIM-LENDIRIWDI BASQARÍW SISTEMALARÍ  ","Bul bapta LMS haqqında, LMS plotformalardıń túrleri hám wazıypalar.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagesevn, "VII bap. WEB-FREELANCE","Bul bapta Web-freelance, Web-freelance saytları.",""));
+        modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.imagetwo, "Paydalanılǵan ádebiyatlar","Paydalanılǵan ádebiyatlar","file:///android_asset/foyda.htm"));
         modelElementarySwimmers.add(new ModelElementarySwimmers(R.drawable.photo, "Muallif:","Turayev Xumoyiddin Abduĝafforovich \n  TerDU","https://t.me/xumoyiddinturayev"));
 
     }

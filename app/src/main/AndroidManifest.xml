@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_twotone_draw_24"
+        android:icon="@drawable/ic_twotone_html_24"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_twotone_draw_24"
+        android:roundIcon="@drawable/ic_twotone_html_24"
         android:supportsRtl="true"
         android:theme="@style/Theme.CHIZMACHILIKFANIDANELEKTRONDARSLIK">
         <activity

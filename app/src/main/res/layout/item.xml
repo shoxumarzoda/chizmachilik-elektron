@@ -17,12 +17,11 @@
             android:layout_height="300dp">
 
             <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:id="@+id/imageView"
-                android:scaleType="centerCrop"
-                android:src="@drawable/imagefive"
-                />
+                android:scaleType="centerInside"
+                android:src="@drawable/imagefive" />
             <TextView
                 android:text="Borucher"
                 android:layout_below="@id/imageView"

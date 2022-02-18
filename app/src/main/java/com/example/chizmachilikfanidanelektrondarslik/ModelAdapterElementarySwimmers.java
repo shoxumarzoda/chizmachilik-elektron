@@ -52,19 +52,22 @@ class ModelAdapterElementarySwimmers extends PagerAdapter {
             @Override
             public void onClick(View v) {
 
-                if (modelElementarySwimmers.get(position).getWebViewtitle().toString().equals("Ma'ruza")  ||
-                        modelElementarySwimmers.get(position).getWebViewtitle().toString().equals("Amaliy")){
+                if (modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Kirisiw")  ||
+                        modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Pay") ||
+                        modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Muallif") ){
 
-                    Intent intent = new Intent(context, MainActivity2.class);
-                    intent.putExtra("swimmers", modelElementarySwimmers.get(position).getWebViewtitle());
+                    Intent intent = new Intent(context, MainActivity3.class);
+                    intent.putExtra("data", modelElementarySwimmers.get(position).getWebViewurl());
 
                     context.startActivity(intent);
+
+
 
                 }
                 else {
 
-                    Intent intent = new Intent(context, MainActivity3.class);
-                    intent.putExtra("data", modelElementarySwimmers.get(position).getWebViewurl());
+                    Intent intent = new Intent(context, MainActivity2.class);
+                    intent.putExtra("swimmers", position);
 
                     context.startActivity(intent);
                 }

@@ -1,4 +1,4 @@
-package com.example.chizmachilikfanidanelektrondarslik;
+package com.htmlwebyaratish.chizmachilikfanidanelektrondarslik;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -15,9 +15,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;

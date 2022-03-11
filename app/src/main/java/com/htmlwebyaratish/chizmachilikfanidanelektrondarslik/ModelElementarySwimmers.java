@@ -1,4 +1,4 @@
-package com.example.chizmachilikfanidanelektrondarslik;
+package com.htmlwebyaratish.chizmachilikfanidanelektrondarslik;
 
 class ModelElementarySwimmers {
     private int webViewImage;

@@ -1,4 +1,4 @@
-package com.example.chizmachilikfanidanelektrondarslik;
+package com.htmlwebyaratish.chizmachilikfanidanelektrondarslik;
 
 import android.content.Context;
 import android.content.Intent;

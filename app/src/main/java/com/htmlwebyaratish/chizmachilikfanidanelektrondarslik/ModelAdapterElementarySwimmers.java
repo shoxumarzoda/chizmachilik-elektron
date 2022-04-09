@@ -2,6 +2,7 @@ package com.htmlwebyaratish.chizmachilikfanidanelektrondarslik;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,13 +55,21 @@ class ModelAdapterElementarySwimmers extends PagerAdapter {
 
                 if (modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Kirisiw")  ||
                         modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Pay") ||
-                        modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Muallif") ){
+                        modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Muallif")
+                         ){
+
+                    if(modelElementarySwimmers.get(position).getWebViewtitle().toString().startsWith("Muallif")){
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://t.me/MaksetbayTorebekovich"));
+                        context.startActivity(intent);
+                    }
+                    else {
+
 
                     Intent intent = new Intent(context, MainActivity3.class);
                     intent.putExtra("data", modelElementarySwimmers.get(position).getWebViewurl());
 
                     context.startActivity(intent);
-
+                    }
 
 
                 }
